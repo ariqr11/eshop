@@ -48,7 +48,7 @@ const ProductUserPage = () => {
                 state: val
             })}>
                 <div>
-                    <img src={API_URL + val.images} className='img-fluid bg-white shadow border mx-3' alt="" width={500} height={500}></img>
+                    <img src={val.images.includes('https') ? API_URL + val.images : val.images} className='img-fluid bg-white shadow border mx-3' alt="" width={500} height={500}></img>
                     <div className='position-relative'>
                         <div className='card shadow-lg w-50 position-absolute top-50 start-50 translate-middle' style={{ backgroundColor: '#ff99ff' }}>
                             <span className='text-center text-dark'>Rp. {parseInt(val.price).toLocaleString('id')}</span>
