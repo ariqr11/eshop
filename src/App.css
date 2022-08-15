@@ -28,10 +28,46 @@
   color: #61dafb;
 }
 
+#landing {
+  background-image: url(https://images.wallpaperscraft.com/image/single/living_room_furniture_eg_blue_tone_wallpaper_80113_1920x1080.jpg);
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#regis {
+  background-image: url(https://images.wallpaperscraft.com/image/single/living_room_furniture_eg_blue_tone_wallpaper_80113_1920x1080.jpg);
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login {
+  background-image: url(https://images.wallpaperscraft.com/image/single/living_room_furniture_eg_blue_tone_wallpaper_80113_1920x1080.jpg);
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#product-detail {
+  background-color: aliceblue;
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-product {
+  background-image: url(https://img.pikbest.com/backgrounds/20190401/abstract-polka-dot-blue-minimalist-background_1884283.jpg);
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
